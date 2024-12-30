@@ -3,9 +3,9 @@
 		"dockerfile": "Dockerfile",
 		"context": ".",
 		"args": {
-			"VARIANT": "3.12",
-			"BASE_IMAGE": "python",
-			"QUARTOVERSION":"1.5.56"
+			"VARIANT": "3.12-bookworm",
+			"BASE_IMAGE": "python"
+			// "QUARTOVERSION":"1.5.56"
 		}
 	},
 	"features": {
@@ -14,9 +14,4 @@
 	"overrideFeatureInstallOrder": [
 		"ghcr.io/devcontainers/features/common-utils"
 	]
-	// "customizations": {
-	// 	"vscode": {
-	// 		"extensions": ["RDebugger.r-debugger"]
-	// 	}
-	// }
 }
