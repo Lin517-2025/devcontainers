@@ -5,7 +5,6 @@
 		"args": {
 			"VARIANT": "3.12-bookworm",
 			"BASE_IMAGE": "python"
-			// "QUARTOVERSION":"1.5.56"
 		}
 	},
 	"features": {
