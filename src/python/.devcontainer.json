@@ -1,0 +1,22 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".",
+		"args": {
+			"VARIANT": "3.12",
+			"BASE_IMAGE": "python",
+			"QUARTOVERSION":"1.5.56"
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {}
+	},
+	"overrideFeatureInstallOrder": [
+		"ghcr.io/devcontainers/features/common-utils"
+	]
+	// "customizations": {
+	// 	"vscode": {
+	// 		"extensions": ["RDebugger.r-debugger"]
+	// 	}
+	// }
+}

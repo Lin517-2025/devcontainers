@@ -1,0 +1,9 @@
+{
+	"include": [
+		{
+			"src_name": "src",
+			"image_name": "lin517-devcontainer",
+			"variant": "3.12"
+		}
+	]
+}
