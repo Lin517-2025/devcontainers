@@ -1,6 +1,6 @@
 ARG BASE_IMAGE=python
 ARG QUARTOVERSION=1.5.56
-ARG VARIANT=3.12
+ARG VARIANT=3.12-bookworm
 FROM ${BASE_IMAGE}:${VARIANT}
 
 # install requirements

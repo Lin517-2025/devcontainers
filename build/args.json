@@ -2,11 +2,11 @@
     "python": {
         "lin517-devcontainer": {
             "base-image": "python",
-            "variant": {
-                "3.11": {
+            "variants": {
+                "3.12-bookworm": {
                     "tags": [
-                        "ghcr.io/lin517-2025/devcontainer/lin517-devcontainer:3.12",
-                        "ghcr.io/lin517-2025/devcontainer/lin517-devcontainer:3"
+                        "ghcr.io/lin517-2025/devcontainer/lin517-devcontainer:3.12-bookworm",
+                        "ghcr.io/lin517-2025/devcontainer/lin517-devcontainer:3.12"
                     ],
                     "platforms": [
                         "linux/amd64"

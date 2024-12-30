@@ -3,7 +3,7 @@
 		{
 			"src_name": "python",
 			"image_name": "lin517-devcontainer",
-			"variant": "3.12"
+			"variant": "3.12-bookworm"
 		}
 	]
 }
