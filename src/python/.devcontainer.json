@@ -12,6 +12,15 @@
 		"ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
 	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"quarto.quarto",
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
 	"overrideFeatureInstallOrder": [
 		"ghcr.io/devcontainers/features/common-utils"
 	]
