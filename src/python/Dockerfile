@@ -2,10 +2,9 @@ ARG BASE_IMAGE=python
 # ARG QUARTOVERSION=1.5.56
 ARG VARIANT=3.12-bookworm
 FROM ${BASE_IMAGE}:${VARIANT}
-ENV NB_USER="vscode"
-USER ${NB_USER}
+
 # install requirements
-COPY --chown=vscode:vscode assets/requirements.txt /tmp/pip-tmp/
+COPY assets/requirements.txt /tmp/pip-tmp/
 RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements.txt \
     && rm -rf /tmp/pip-tmpf
 
