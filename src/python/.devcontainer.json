@@ -21,6 +21,9 @@
 			]
 		}
 	},
+	"postAttachCommand" : {
+	 "rebase" : "git config pull.rebase false"
+	},
 	"overrideFeatureInstallOrder": [
 		"ghcr.io/devcontainers/features/common-utils"
 	]
