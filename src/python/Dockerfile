@@ -7,6 +7,7 @@ FROM ${BASE_IMAGE}:${VARIANT}
 COPY assets/requirements.txt /tmp/pip-tmp/
 RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements.txt \
     && rm -rf /tmp/pip-tmpf
+RUN python -m nltk.downloader 'punkt'
 
 # # # quarto update
 # ARG QUARTOVERSION
