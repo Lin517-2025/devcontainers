@@ -22,7 +22,9 @@
 		}
 	},
 	"postAttachCommand" : {
-	 "rebase" : "git config pull.rebase false"
+	 "rebase" : "git config pull.rebase false",
+         "punkt": "python -m nltk.downloader 'punkt'",
+	 "punkt_tab": "python -m nltk.downloader 'punkt_tab'"
 	},
 	"overrideFeatureInstallOrder": [
 		"ghcr.io/devcontainers/features/common-utils"
